@@ -671,6 +671,7 @@ Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-08-31 22:10:00 -0400
 
 Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdXQ?sha=049fa2ec7814dbce" for 127.0.0.1 at 2014-08-31 22:10:04 -0400
 DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdXQ?sha=049fa2ec7814dbce 200
+<<<<<<< HEAD
 
 
 Started GET "/photos/new" for 127.0.0.1 at 2014-08-31 22:18:52 -0400
@@ -1284,3 +1285,90 @@ Dragonfly::S3DataStore::NotConfigured (You need to configure Dragonfly::S3DataSt
   Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
   Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+=======
+>>>>>>> parent of 7c33707... added validations and error checking for photos
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-01 00:06:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.6ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 174ms (Views: 143.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-01 00:06:59 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140901-76853-97v52g.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-01 00:06:59 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140901-76853-yfz5q5.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-01 00:07:00 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/9ap6qjc5em_IMG00244.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140901-76853-cldm1c.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-01 00:07:00 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/4hyrusamcc_family2_copy.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140901-76853-1ycpx08.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 200
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-01 00:07:02 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"exDKIIJOTyKtvHiMt/8PrwuLseAvez24dOuRjSBVsF8=", "photo"=>{"title"=>"tesstihng", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001046bfc38 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140901-76853-1y1hbtg>, @original_filename="20121110-IMG_3843.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20121110-IMG_3843.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "photos" ("created_at", "image_uid", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-09-01 04:07:34.386277"], ["image_uid", "2014/09/01/1hyash4uon_20121110_IMG_3843.jpg"], ["title", "tesstihng"], ["updated_at", "2014-09-01 04:07:34.386277"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 15ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.3ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140901-76853-1dzpr15.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 200
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-01 00:07:34 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXV0?sha=24530bfda5357218" for 127.0.0.1 at 2014-09-01 00:07:38 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXV0?sha=24530bfda5357218 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl1d?sha=751e84df4881ee37" for 127.0.0.1 at 2014-09-01 00:08:04 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl1d?sha=751e84df4881ee37 200

@@ -1,20 +1,16 @@
 require 'dragonfly'
-# require 'dragonfly/s3_data_store'
 
 # Configure
 Dragonfly.app.configure do
   plugin :imagemagick
 
-  secret "92d09f556efb5cb559acac29368410bac380b516c35281bc5f136d3996922c75"
+  secret "72170a77f307e18287e2ed728e17ae9ea5b50558970d3d2a16baff91f948f37a"
 
   url_format "/media/:job/:name"
 
-  # if Rails.env.development? || Rails.env.test?
-  datastore :file,
-            root_path: Rails.root.join('public/system/dragonfly', Rails.env),
-            server_root: Rails.root.join('public')
-  # end
-
+  datastore :file,
+    root_path: Rails.root.join('public/system/dragonfly', Rails.env),
+    server_root: Rails.root.join('public')
 end
 
 # Logger
