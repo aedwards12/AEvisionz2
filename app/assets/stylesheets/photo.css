@@ -14,8 +14,6 @@
 }
  #photos-list p {
       margin: 0;
-      /*margin-top: 10px;*/
-      /*height: 40px;*/
       overflow: hidden;
 }
 
@@ -37,14 +35,24 @@
   width: 0%;
 }
 
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80px;
+}
+
 li {
   display: inline;
+}
+
+header {
+  padding-left: 5em;
+  height: 10em;
 }
 
 /*images properties*/
 
 .images{
-   opacity: 0.4;
+  opacity: 0.4;
   filter: alpha(opacity=40);
 }
 
@@ -52,3 +60,10 @@ li {
   opacity: 1;
   background-color: rgba(0, 0, 0, 1);
 }
+
+/*footer section*/
+
+footer{
+  height: 10em;
+}
+
