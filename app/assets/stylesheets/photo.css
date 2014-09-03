@@ -44,8 +44,8 @@ li {
 /*images properties*/
 
 .images{
-  opacity: 0.7;
-  background-color: rgba(0, 0, 0, 0.5);
+   opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 
 .images:hover{
