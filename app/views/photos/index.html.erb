@@ -4,10 +4,10 @@
 
 <ul class="row" id="photos-list">
   <% @photos.each do |photo| %>
-    <li class="col-xs-3">
-     <%= link_to image_tag(photo.image.thumb('180x180#').url, alt: photo.title, class: 'img-thumbnail'),
-                  photo.image.url, target: '_blank' %>
-      <p><%= photo.title %></p>
+    <li class="spacing">
+     <%= link_to image_tag(photo.image.thumb('250x250#').url, alt: photo.title,class:'images'),
+                   photo.image.url, target: '_blank' %>
+      <!-- <p><%= photo.title %></p> -->
     </li>
   <% end %>
 </ul>

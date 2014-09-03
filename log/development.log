@@ -1372,3 +1372,2135 @@ DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMz
 
 Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl1d?sha=751e84df4881ee37" for 127.0.0.1 at 2014-09-01 00:08:04 -0400
 DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl1d?sha=751e84df4881ee37 200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:38:17 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (63.6ms)
+Completed 200 OK in 710ms (Views: 631.3ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:38:18 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:38:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:38:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:38:19 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:38:19 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:38:19 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-1me3vmf.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-vbsjbi.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/9ap6qjc5em_IMG00244.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-13jcr15.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/4hyrusamcc_family2_copy.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-flrcim.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:38:21 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' '-resize' '180x180^^' '-gravity' 'Center' '-crop' '180x180+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-j1j8tb.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:39:41 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:39:42 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:40:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:40:42 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 185ms (Views: 183.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:40:43 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:41:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:41:14 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:43:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (1.8ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:44:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:44:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (1.1ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMTgweDE4MCMiXV0?sha=a8e7e89f59ba1148 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=f6f4eeed537e07ec 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIxODB4MTgwIyJdXQ?sha=d9269b78260fef5f 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=c89786fd5b924f5b 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6" for 127.0.0.1 at 2014-09-03 08:45:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjE4MHgxODAjIl1d?sha=a2c51154492f27d6 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:46:09 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-49kupj.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-14avxmd.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/9ap6qjc5em_IMG00244.jpg' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-18y8bof.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/4hyrusamcc_family2_copy.jpg' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-13743md.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 200
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:46:10 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-foh8xf.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:47:25 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:47:26 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:27 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:47:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:48:22 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:49:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (3.0ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:55:51 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:55:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:55:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:55:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:55:52 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:55:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:55:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:56:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:56:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:56:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:59:39 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:59:39 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:59:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:59:40 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.9ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 08:59:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:02:50 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:03:25 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (1.8ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:03:26 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (2.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:04:01 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:06:34 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (2.6ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:06:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:07:09 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:07:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:07:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (6.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 30ms (Views: 22.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:08:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:08:05 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:10:57 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (1.0ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:10:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (1.7ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:12:03 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-03 09:12:12 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (165.2ms)
+Completed 200 OK in 172ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"exDKIIJOTyKtvHiMt/8PrwuLseAvez24dOuRjSBVsF8=", "photo"=>{"title"=>"testing 4", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000010226c9a8 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140903-43362-la70h7>, @original_filename="Screen Shot 2014-09-02 at 8.28.05 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"Screen Shot 2014-09-02 at 8.28.05 PM.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Submit"}
+  [1m[36m (60.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (81.7ms)[0m  INSERT INTO "photos" ("created_at", "image_uid", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-09-03 13:14:49.307288"], ["image_uid", "2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"], ["title", "testing 4"], ["updated_at", "2014-09-03 13:14:49.307288"]]
+  [1m[36m (37.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 340ms (ActiveRecord: 180.4ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:14:49 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' '-resize' '250x250^^' '-gravity' 'Center' '-crop' '250x250+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140903-43362-1npgeg6.png'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 200
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:16:08 -0400
+Processing by PhotosController#index as HTML
+  Rendered photos/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected '='
+                  class="images"photo.image.url, targ...
+                        ^
+/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+...            class="images"photo.image.url, target: '_blank' ...
+...                               ^
+/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected tLABEL, expecting '='
+...images"photo.image.url, target: '_blank' );@output_buffer.sa...
+...                               ^):
+  app/views/photos/index.html.erb:9: syntax error, unexpected '='
+  app/views/photos/index.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/photos/index.html.erb:9: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (81.3ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:16:36 -0400
+Processing by PhotosController#index as HTML
+  Rendered photos/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected '='
+                  class="images", photo.image.url, ta...
+                        ^
+/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+...                class="images", photo.image.url, target: '_b...
+...                               ^
+/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/app/views/photos/index.html.erb:9: syntax error, unexpected tLABEL, expecting '='
+...ages", photo.image.url, target: '_blank' );@output_buffer.sa...
+...                               ^):
+  app/views/photos/index.html.erb:9: syntax error, unexpected '='
+  app/views/photos/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+  app/views/photos/index.html.erb:9: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 162ms (Views: 161.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:18:34 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:18:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:18:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:18:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:18:35 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:21:46 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:21:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:23:07 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:23:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:23:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:23:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:23:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (3.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 28ms (Views: 22.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:23:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:24:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXV0?sha=aafcdbcdc98e492b" for 127.0.0.1 at 2014-09-03 09:24:04 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXV0?sha=aafcdbcdc98e492b 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXV0?sha=19dae8b6aaaa561c" for 127.0.0.1 at 2014-09-03 09:24:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXV0?sha=19dae8b6aaaa561c 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdXQ?sha=b35fa217812b7294" for 127.0.0.1 at 2014-09-03 09:25:28 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdXQ?sha=b35fa217812b7294 200
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 141ms (Views: 139.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:26:16 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (1.2ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMjUweDI1MCMiXV0?sha=966d2c73fa178f95 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=b91aab41318221ab 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=ab11aa0922fc94ae 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=7db5b9479ae28d23 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjI1MHgyNTAjIl1d?sha=71c89adbf5c23796 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582" for 127.0.0.1 at 2014-09-03 09:26:52 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIyNTB4MjUwIyJdXQ?sha=5352727d3947a582 304
