@@ -1,10 +1,11 @@
 <header>
 	<h1>AEvisionz</h1>
+  <div></div>
 	 
 </header>
 <ul class="row" id="photos-list">
   <% @photos.each do |photo| %>
-    <li class="spacing">
+    <li class="spacing" data-category="<%=photo.category%>">
      <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title,class:'images'),
                    photo.image.url, target: '_blank' %>
       <!-- <p><%= photo.title %></p> -->
