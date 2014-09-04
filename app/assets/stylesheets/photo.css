@@ -66,6 +66,13 @@ footer{
   height: 10em;
 }
 
+/*categories labels*/
+
+.categories li{
+  margin-right: 2em;
+  font-size: 18px;
+}
+
 /*photoform*/
 .shoot-form{
   width: 200px;
