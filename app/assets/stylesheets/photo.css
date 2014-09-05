@@ -3,14 +3,18 @@
   margin: 0;
   margin-top: 30px;
   clear: both;
+  list-style-type: none;
+
 }
 #photos-list li {
-    list-style-type: none;
     padding: 0;
     margin: 0;
-    /*max-height: 250px;*/
-    /*margin-bottom:0px;*/
-    text-align: center;
+    /*-webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out;*/
+     -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
 }
  #photos-list p {
       margin: 0;
@@ -33,7 +37,7 @@
 
 .spacing{
   width: 0%;
-}
+ }
 
 h1{
   font-family: 'Quicksand', sans-serif;
@@ -44,9 +48,24 @@ li {
   display: inline;
 }
 
+h1{
+  margin: 0px 0px;
+}
+
 header {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
   padding-left: 5em;
   height: 10em;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 4;
+  color: white;
+}
+
+header ul{
+  margin: 0px 0px;
 }
 
 /*images properties*/
@@ -71,6 +90,11 @@ footer{
 .categories li{
   margin-right: 2em;
   font-size: 18px;
+  color: rgb(255,255,200);
+}
+
+.categories li:hover{
+  color: white
 }
 
 /*photoform*/
@@ -80,4 +104,10 @@ footer{
  
 input{
   margin-bottom: 2em;
+}
+
+/*photos section*/
+
+section{
+  margin-top: 12em;
 }
