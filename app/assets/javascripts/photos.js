@@ -74,11 +74,14 @@ function showcategory(event){
 
 function imageModal(event){
 	event.preventDefault();
-	console.log(event.target);
+	
+	var src = event.target.src;
 	var simulate = document.querySelector("#openM").click();
-	// document.getElementById('openModal').click();
-	console.log(simulate)
-	// simulate.click();
-
+	var image = document.querySelector("#imageView");
+	
+	var imageDisplay = document.createElement("img");
+	imageDisplay.setAttribute("src", src);
+    console.log(imageDisplay);
+    image.appendChild(imageDisplay);
 
 }

@@ -63,6 +63,9 @@ header {
   z-index: 4;
   color: white;
 }
+header a{
+  visibility: hidden;
+}
 
 header ul{
   margin: 0px 0px;
