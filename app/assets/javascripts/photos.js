@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', function(){
 	img.addEventListener('click', imageModal);
 	console.log(img)
 
+	var closeModal = document.querySelector("#close");
+	closeModal.addEventListener('click', closeImageModal)
+
 });
 
 function showcategory(event){
@@ -74,7 +77,7 @@ function showcategory(event){
 
 function imageModal(event){
 	event.preventDefault();
-	
+
 	var src = event.target.src;
 	var simulate = document.querySelector("#openM").click();
 	var image = document.querySelector("#imageView");
@@ -83,5 +86,9 @@ function imageModal(event){
 	imageDisplay.setAttribute("src", src);
     console.log(imageDisplay);
     image.appendChild(imageDisplay);
+}
 
+function closeImageModal(event){
+	var image = document.querySelector("#imageView");
+	image.innerHTML = " ";
 }

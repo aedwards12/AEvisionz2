@@ -24682,3 +24682,586 @@ DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl
 
 Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:26:18 -0400
 DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.9ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 273ms (Views: 265.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c" for 127.0.0.1 at 2014-09-06 11:33:37 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.6ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97" for 127.0.0.1 at 2014-09-06 11:36:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146" for 127.0.0.1 at 2014-09-06 11:37:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:38:40 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.6ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c" for 127.0.0.1 at 2014-09-06 11:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c 304
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=76b235ea2ce05e7e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=601e53f4b362d9ef 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7394c686c7eca6dc 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=69a18882215e3403 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b9ee3f50b166a45d 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=f35c67a1734eb099 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=b22a656fd18da4f1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=f893653b384c41a6 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=5ebf976ac96c878e 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=37a864341be0bddd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=41e2303e8204aa32 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIngyMDAiXV0?sha=7099dad6e4320ee9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=fe8cdec82286d439 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=83d04537f6641f97 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=44e5bb0b84f10b0c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4MjAwIl1d?sha=c2774a2af03be6d4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146" for 127.0.0.1 at 2014-09-06 11:39:10 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=70a81cd1b8771146 304
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-06 11:39:16 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"exDKIIJOTyKtvHiMt/8PrwuLseAvez24dOuRjSBVsF8=", "photo"=>{"title"=>"testing 4", "category"=>"landscape", "model"=>"na", "shootdate"=>"2014-09-09", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000010a384478 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140906-73529-13oy0o2>, @original_filename="Deanna8web.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"Deanna8web.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (62.9ms)[0m  BEGIN
+  [1m[36mSQL (177.6ms)[0m  [1mINSERT INTO "photos" ("category", "created_at", "image_uid", "model", "shootdate", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["category", "landscape"], ["created_at", "2014-09-06 15:40:33.396924"], ["image_uid", "2014/09/06/3ckeeffkef_Deanna8web.jpg"], ["model", "na"], ["shootdate", "2014-09-09"], ["title", "testing 4"], ["updated_at", "2014-09-06 15:40:33.396924"]]
+  [1m[35m (116.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 456ms (ActiveRecord: 357.4ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.7ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=0717c31424297445" for 127.0.0.1 at 2014-09-06 11:40:33 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/06/3ckeeffkef_Deanna8web.jpg' '-resize' 'x200' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140906-73529-sg7mxc.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwieDIwMCJdXQ?sha=0717c31424297445 200
