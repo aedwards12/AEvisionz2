@@ -7,6 +7,7 @@
       <li id="shuffle">shuffle</li>
     </ul>
   </div>
+  <a href="#openModal">Open Modal</a>
 </header>
 <section>
   <ul class="row" id="photos-list">
@@ -19,6 +20,12 @@
     <% end %>
   </ul>
 </section>
+
+<div id="openModal" class="modalDialog">
+  <div> <a href="#close" title="Close" class="close">X</a>
+  </div>
+  <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+</div>
 <footer>
 	
 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3>
