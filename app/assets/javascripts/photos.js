@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	var img = document.querySelector("#photos-list");
 	img.addEventListener('click', imageModal);
-	console.log(img)
+	// console.log(img)
 
 	var closeModal = document.querySelector("#close");
 	closeModal.addEventListener('click', closeImageModal)
@@ -77,15 +77,30 @@ function showcategory(event){
 
 function imageModal(event){
 	event.preventDefault();
+	 console.log(event.target.dataset.id)
 
 	var src = event.target.src;
 	var simulate = document.querySelector("#openM").click();
 	var image = document.querySelector("#imageView");
-	
+	var photos = document.querySelectorAll('li[data-category]');
 	var imageDisplay = document.createElement("img");
-	imageDisplay.setAttribute("src", src);
-    console.log(imageDisplay);
-    image.appendChild(imageDisplay);
+	// imageDisplay.setAttribute("src", src);
+    // console.log(imageDisplay);
+    // image.appendChild(imageDisplay);
+
+     var block = {photo:{image_uid: event.target.dataset.id }}
+
+     $.ajax({
+    url:"/photos/id_show",
+     method:"POST",
+     data: block,
+     dataType: 'json'
+	 }).done(function(data) {
+	     // appendExerciseTable(fm);
+	     console.log(data)
+	   imageDisplay.setAttribute("src", data);
+       image.appendChild(imageDisplay);
+	 }).fail(function(){console.log("FAILURE")})	
 }
 
 function closeImageModal(event){

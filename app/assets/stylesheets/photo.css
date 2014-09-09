@@ -138,15 +138,20 @@ section{
 }
 
 .modalDialog > div {
-  width: 400px;
+  width: 850px;
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
   background: #fff;
+  text-align: center;
   background: -moz-linear-gradient(#fff, #999);
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
+}
+
+#imageView {
+  margin-top:10px;
 }
 
 .close {
