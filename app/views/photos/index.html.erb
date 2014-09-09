@@ -12,8 +12,8 @@
 <section>
   <ul class="row" id="photos-list">
     <% @photos.each do |photo| %>
-      <li class="spacing" data-category="<%=photo.category%>" >
-       <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title, class:'images', id: :"#openModal"),
+      <li class="spacing" data-category="<%=photo.category%>"  >
+       <%= link_to image_tag(photo.image.thumb('300x200#').url, alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid  ),
                      photo.image.url, target: '_blank' %>
         <!-- <p><%= photo.title %></p> -->
       </li>

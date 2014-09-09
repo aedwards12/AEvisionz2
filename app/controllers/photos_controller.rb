@@ -17,8 +17,25 @@ class PhotosController < ApplicationController
 		render 'new'
 		end
 	end
+
+	def id_show
+		p "inhere"
+		p params["photo"]
+		@photo = Photo.find_by(params["photo"])
+
+		if @photo
+		  render json: @photo.image.thumb('x500').url.to_json		
+		else
+		  render json: "failed".to_json
+		end  
+	end 
 	
 	private
+
+	def photo_show
+		p params
+		params.require(:photo).permit(:image_uid)
+	end	
 	
 	def photo_params
 		params.require(:photo).permit(:image, :title, :category, :model, :shootdate)
