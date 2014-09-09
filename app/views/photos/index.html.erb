@@ -4,21 +4,21 @@
     <ul>
       <li>all</li>
       <li>landscape</li>
+      <li id="shuffle">shuffle</li>
     </ul>
-
   </div>
-	 
 </header>
-<ul class="row" id="photos-list">
-  <% @photos.each do |photo| %>
-    <li class="spacing" data-category="<%=photo.category%>">
-     <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title,class:'images'),
-                   photo.image.url, target: '_blank' %>
-      <!-- <p><%= photo.title %></p> -->
-    </li>
-  <% end %>
-</ul>
-
+<section>
+  <ul class="row" id="photos-list">
+    <% @photos.each do |photo| %>
+      <li class="spacing" data-category="<%=photo.category%>">
+       <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title,class:'images'),
+                     photo.image.url, target: '_blank' %>
+        <!-- <p><%= photo.title %></p> -->
+      </li>
+    <% end %>
+  </ul>
+</section>
 <footer>
 	
 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3>
