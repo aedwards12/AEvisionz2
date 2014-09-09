@@ -1,21 +1,28 @@
 document.addEventListener('DOMContentLoaded', function(){
 	console.log("content loaded");
 
-	var categories = document.querySelector(".categories")
-	categories.addEventListener('click', showcategory)
+	var categories = document.querySelector(".categories");
+	categories.addEventListener('click', showcategory);
+
+	var img = document.querySelector("#photos-list");
+	img.addEventListener('click', imageModal);
+	console.log(img)
+
+	var closeModal = document.querySelector("#close");
+	closeModal.addEventListener('click', closeImageModal)
 
 });
 
 function showcategory(event){
 	//show individual category or show all
 	var category = event.target.innerHTML;
-	console.log(category)
+	// console.log(category)
 
 	if (category !== "all" && category != "shuffle"){			
 		var photos = document.querySelectorAll('li[data-category]');
 		 // console.log(photos.dataset.data-category=== category);
 		for(var i = 0; i<photos.length; i++){
-			 console.log(photos[i].dataset.category=== category)
+			 // console.log(photos[i].dataset.category=== category)
 			if (photos[i].dataset.category !== category){
 			photos[i].style.display = "none";
 			}
@@ -60,12 +67,28 @@ function showcategory(event){
 	}else { 
 		//make images visible
 		var photos = document.querySelectorAll('li[data-category]');
-		console.log(photos)
+		// console.log(photos)
 		for(var i = 0; i<photos.length; i++){
 			photos[i].style.display = "";
 		}
-	}//end if
-	
-
-	
+	}//end if	
 }//end showcategory
+
+
+function imageModal(event){
+	event.preventDefault();
+
+	var src = event.target.src;
+	var simulate = document.querySelector("#openM").click();
+	var image = document.querySelector("#imageView");
+	
+	var imageDisplay = document.createElement("img");
+	imageDisplay.setAttribute("src", src);
+    console.log(imageDisplay);
+    image.appendChild(imageDisplay);
+}
+
+function closeImageModal(event){
+	var image = document.querySelector("#imageView");
+	image.innerHTML = " ";
+}

@@ -7,18 +7,26 @@
       <li id="shuffle">shuffle</li>
     </ul>
   </div>
+  <a href="#openModal" id="openM">Open Modal</a>
 </header>
 <section>
   <ul class="row" id="photos-list">
     <% @photos.each do |photo| %>
-      <li class="spacing" data-category="<%=photo.category%>">
-       <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title,class:'images'),
+      <li class="spacing" data-category="<%=photo.category%>" >
+       <%= link_to image_tag(photo.image.thumb('x200').url, alt: photo.title, class:'images', id: :"#openModal"),
                      photo.image.url, target: '_blank' %>
         <!-- <p><%= photo.title %></p> -->
       </li>
     <% end %>
   </ul>
 </section>
+
+<div id="openModal" class="modalDialog">
+  <div> <a href="#close" title="Close" class="close" id="close">X</a>
+    <div id="imageView">
+    </div>
+  </div>
+ </div> 
 <footer>
 	
 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3>
