@@ -30338,3 +30338,342 @@ Processing by PhotosController#id_show as JSON
 Can't verify CSRF token authenticity
   [1m[35mPhoto Load (0.8ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/17n3ivcmmm_picture_87.jpg' LIMIT 1
 Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:23:41 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.8ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4NTAwIl1d?sha=7b0e540afee964a7" for 127.0.0.1 at 2014-09-09 12:23:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' '-resize' 'x500' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1ckea2g.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCJ4NTAwIl1d?sha=7b0e540afee964a7 200
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:23:49 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/01/1hyash4uon_20121110_IMG_3843.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' LIMIT 1
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:24:00 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.7ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:24:05 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/7fb48f93lk_picture_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/7fb48f93lk_picture_21.jpg' LIMIT 1
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:24:15 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/06/3ckeeffkef_Deanna8web.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.6ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/06/3ckeeffkef_Deanna8web.jpg' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:24:19 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (1.1ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg' LIMIT 1
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.6ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-09 12:26:38 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-akx0r6.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 200
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-09 12:26:39 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-09 12:26:39 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/9ap6qjc5em_IMG00244.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-9hqrh1.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-09 12:26:39 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-qzwnlc.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-09 12:26:39 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/4hyrusamcc_family2_copy.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-14n5rq4.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-09 12:26:40 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-flokl2.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-09 12:26:40 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-13qbw39.png'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-09 12:26:40 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-vyy5jx.png'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-09 12:26:40 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-kbtxqs.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-09 12:26:40 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1fez2if.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-09 12:26:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/06/3ckeeffkef_Deanna8web.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-15te09p.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-09 12:26:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/4r0c4jk3uy_picture_103.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1p2op8g.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-09 12:26:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/6jdo2ujsfz_picture_109_21.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-pol875.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-09 12:26:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/3p14vgaz1t_picture_101.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1fbrg0i.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-09 12:26:41 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/5vfqoavpm7_111photo.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-z8tk48.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-09 12:26:42 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/u71iz8nst_picture_107.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-146ljmi.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-09 12:26:42 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/39yzywa3ft_picture_106.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1bk7gjk.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-09 12:26:43 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/7fb48f93lk_picture_21.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-ft7o9h.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-09 12:26:43 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/17n3ivcmmm_picture_87.jpg' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-8grph1.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 200
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:26:51 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/08/31/9ap6qjc5em_IMG00244.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (0.7ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/08/31/9ap6qjc5em_IMG00244.jpg' LIMIT 1
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:26:55 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/01/1hyash4uon_20121110_IMG_3843.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.9ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.6ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=db06dbf432bf0584" for 127.0.0.1 at 2014-09-09 12:27:22 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-13hpexv.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=db06dbf432bf0584 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=931877d2ae7c0dae" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1u4ffjo.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=931877d2ae7c0dae 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=a558d34bb64a68a3" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/9ap6qjc5em_IMG00244.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1vr88x3.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=a558d34bb64a68a3 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4MjAwIyJdXQ?sha=ebdf3da1176c0bdf" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/08/31/4hyrusamcc_family2_copy.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-amkz95.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4MjAwIyJdXQ?sha=ebdf3da1176c0bdf 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=294cf29c89734212" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-10j2mul.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=294cf29c89734212 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=42631fa2c0b1f00c" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1hfj9bx.png'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=42631fa2c0b1f00c 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=1acf860062017122" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1fho7jk.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=1acf860062017122 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4MjAwIyJdXQ?sha=4f23091c7d74a0ad" for 127.0.0.1 at 2014-09-09 12:27:23 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-sk9otl.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4MjAwIyJdXQ?sha=4f23091c7d74a0ad 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=4550c6f23f126b85" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/06/3ckeeffkef_Deanna8web.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1u23mo4.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=4550c6f23f126b85 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=d0eee6c33980a236" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/4r0c4jk3uy_picture_103.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1rlz6dv.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=d0eee6c33980a236 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=390d116d940834dd" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1rh4wfv.png'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=390d116d940834dd 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=17e9f975d7011fa9" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/6jdo2ujsfz_picture_109_21.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1sal338.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=17e9f975d7011fa9 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=69cb86a922d13ed8" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/3p14vgaz1t_picture_101.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1gt57rb.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=69cb86a922d13ed8 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=79814c7494699f35" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/u71iz8nst_picture_107.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1m8z9wq.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=79814c7494699f35 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=2c9d4b964ee008f5" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/7fb48f93lk_picture_21.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-yxg2du.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=2c9d4b964ee008f5 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=456a70764cead31b" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/39yzywa3ft_picture_106.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-3qr85y.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=456a70764cead31b 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=218023e9314b2b74" for 127.0.0.1 at 2014-09-09 12:27:24 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/5vfqoavpm7_111photo.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-1kddnmy.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgyMDAjIl1d?sha=218023e9314b2b74 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=5e73d554a4a38e71" for 127.0.0.1 at 2014-09-09 12:27:25 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/17n3ivcmmm_picture_87.jpg' '-resize' '300x200^^' '-gravity' 'Center' '-crop' '300x200+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140909-8587-wzvukp.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiMzAweDIwMCMiXV0?sha=5e73d554a4a38e71 200
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:27:34 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/4r0c4jk3uy_picture_103.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.9ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/4r0c4jk3uy_picture_103.jpg' LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-09 12:28:02 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg' LIMIT 1
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
