@@ -11,6 +11,23 @@ document.addEventListener('DOMContentLoaded', function(){
 	var closeModal = document.querySelector("#close");
 	closeModal.addEventListener('click', closeImageModal)
 
+	 window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop
+        var shrinkOn = 200;
+           header = document.querySelector("header");
+           console.log(distanceY)
+        if (distanceY > shrinkOn) {
+        	header.classList.add("smaller");
+            // classie.add(header,"smaller");
+        } else {
+            if (header.classList.contains("smaller")) {
+                header.classList.remove("smaller");
+            }
+               // header.classList.toggle("smaller");
+
+        }
+    });
+
 });
 
 function showcategory(event){
