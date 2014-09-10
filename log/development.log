@@ -32813,3 +32813,2390 @@ Processing by PhotosController#id_show as JSON
 Can't verify CSRF token authenticity
   [1m[35mPhoto Load (58.1ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg' LIMIT 1
 Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 58.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:18:12 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (1.0ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:18:12 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:18:12 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:18:12 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:18:13 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:21:48 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:21:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:24:16 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:24:17 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 128ms (Views: 126.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:26:09 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:26:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:27:10 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:27:11 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:27:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 156ms (Views: 155.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:32:02 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:33:17 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.7ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:34:46 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.6ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:35:32 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:35:34 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (1.9ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' LIMIT 1
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:35:46 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:35:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:35:50 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/6jdo2ujsfz_picture_109_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (3.4ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/6jdo2ujsfz_picture_109_21.jpg' LIMIT 1
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIng1MDAiXV0?sha=d7a3e1b8987d7df0" for 127.0.0.1 at 2014-09-10 14:35:50 -0400
+DRAGONFLY: shell command: 'convert' '/Users/anthonyedwardsjr/Desktop/aevisionz/aevisionz_redesign/AEvisionz2/public/system/dragonfly/development/2014/09/03/6jdo2ujsfz_picture_109_21.jpg' '-resize' 'x500' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140910-18016-tr30ua.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIng1MDAiXV0?sha=d7a3e1b8987d7df0 200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:11 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:36:12 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:36:13 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (4.2ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' LIMIT 1
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:36:19 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/6jdo2ujsfz_picture_109_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (2.7ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/6jdo2ujsfz_picture_109_21.jpg' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:36:22 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/7fb48f93lk_picture_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (2.3ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/7fb48f93lk_picture_21.jpg' LIMIT 1
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:36:31 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:37:24 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:37:25 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (4.7ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.5ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:37:47 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:37:48 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (4.3ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:37:56 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (4.7ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:38:13 -0400
+Processing by PhotosController#id_show as JSON
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (4.4ms)[0m  [1mSELECT  "photos".* FROM "photos"  LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.6ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:38:41 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:38:43 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.8ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:55 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:39:56 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:39:57 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (10.3ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png' LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 10.3ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:40:09 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (0.9ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' LIMIT 1
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:40:14 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:40:14 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:40:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:40:14 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:40:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.6ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:43:18 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:43:19 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:43:22 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (5.6ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png' LIMIT 1
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:46:07 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 149ms (Views: 147.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:46:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:07 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:46:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:46:07 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:46:08 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:46:10 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (2.4ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:47:39 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:47:42 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (5.4ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:47:49 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (0.7ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:30 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (8.6ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg' LIMIT 1
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 8.6ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:33 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/7fb48f93lk_picture_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (2.9ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/7fb48f93lk_picture_21.jpg' LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:36 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/6jdo2ujsfz_picture_109_21.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (8.2ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/6jdo2ujsfz_picture_109_21.jpg' LIMIT 1
+Completed 200 OK in 13ms (Views: 2.8ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 141ms (Views: 139.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-10 14:50:49 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:51 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/01/1hyash4uon_20121110_IMG_3843.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (3.2ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/01/1hyash4uon_20121110_IMG_3843.jpg' LIMIT 1
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:56 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/5vfqoavpm7_111photo.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (26.5ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/5vfqoavpm7_111photo.jpg' LIMIT 1[0m
+Completed 200 OK in 30ms (Views: 0.2ms | ActiveRecord: 26.5ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:50:59 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/06/3ckeeffkef_Deanna8web.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (3.9ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/06/3ckeeffkef_Deanna8web.jpg' LIMIT 1
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-10 14:51:05 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/03/u71iz8nst_picture_107.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (2.5ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/03/u71iz8nst_picture_107.jpg' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 2.5ms)
