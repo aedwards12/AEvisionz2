@@ -21,6 +21,9 @@
       overflow: hidden;
 }
 
+.img-align{
+  text-align: center;
+}
 .img-thumbnail{
   padding: 0px;
   border: none;
