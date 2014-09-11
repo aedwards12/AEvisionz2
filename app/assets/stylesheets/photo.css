@@ -21,6 +21,9 @@
       overflow: hidden;
 }
 
+.img-align{
+  text-align: center;
+}
 .img-thumbnail{
   padding: 0px;
   border: none;
@@ -56,21 +59,46 @@ header {
   position: fixed;
   top:0;
   left: 0;
-  width: 100%;
+  /*width: 100%;*/
   padding-left: 5em;
   height: 10em;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 1);
   z-index: 4;
   color: white;
+   -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
 }
 header a{
   visibility: hidden;
+}
+
+header h1{
+  color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header.smaller h1 {
+  font-size: 3em;
+  color: white;
 }
 
 header ul{
   margin: 0px 0px;
 }
 
+header.row{
+  max-width: 100%;
+}
+
+header.smaller {
+    height: 100px;
+}
 /*images properties*/
 
 .images{
@@ -138,10 +166,10 @@ section{
 }
 
 .modalDialog > div {
-  width: 850px;
-  position: relative;
+  /*width: 850px;*/
+  /*position: relative;*/
   margin: 10% auto;
-  padding: 5px 20px 13px 20px;
+  /*padding: 5px 20px 13px 20px;*/
   border-radius: 10px;
   background: #fff;
   text-align: center;
@@ -159,7 +187,7 @@ section{
   color: #FFFFFF;
   line-height: 25px;
   position: absolute;
-  right: -12px;
+  right: 10px;
   text-align: center;
   top: -10px;
   width: 24px;
