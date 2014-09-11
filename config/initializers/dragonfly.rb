@@ -14,8 +14,8 @@ Dragonfly.app.configure do
 	else
 		datastore :s3,
 			bucket_name: "aevisionzbucket",
-			access_key_id: ENV['S3_KEY'],
-			secret_access_key: ENV['S3_SECRET'],
+			access_key_id: Rails.application.secrets.S3_KEY,
+			secret_access_key: Rails.application.secrets.S3_SECRET,
 			url_scheme: 'https'    
 	end
 end

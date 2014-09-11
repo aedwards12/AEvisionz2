@@ -38850,3 +38850,546 @@ Processing by PhotosController#id_show as JSON
 Can't verify CSRF token authenticity
   [1m[36mPhoto Load (6.0ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/11/00/01/07/769/20130602__MG_0283_Edit_2.jpg' LIMIT 1[0m
 Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-11 00:40:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.9ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 266ms (Views: 234.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 304
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=71eb423de4417955" for 127.0.0.1 at 2014-09-11 00:40:31 -0400
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=71eb423de4417955 304
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-11 00:40:35 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/11/00/01/07/769/20130602__MG_0283_Edit_2.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[36mPhoto Load (2.1ms)[0m  [1mSELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/11/00/01/07/769/20130602__MG_0283_Edit_2.jpg' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-11 00:40:40 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (119.4ms)
+Completed 200 OK in 195ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-11 00:41:01 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQCko/A9CedUxmirkkv5hjfkeP5sILqU9h9NvFjv3eI=", "photo"=>{"title"=>"jjj", "category"=>"kkk", "model"=>"kkjjhhg", "shootdate"=>"2014-09-11", "image"=>#<ActionDispatch::Http::UploadedFile:0x00000105c8ddd0 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140911-30739-h6ri73>, @original_filename="20130601-_MG_0024-1-2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20130601-_MG_0024-1-2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms
+
+Dragonfly::S3DataStore::NotConfigured (You need to configure Dragonfly::S3DataStore with access_key_id):
+  app/controllers/photos_controller.rb:13:in `create'
+
+
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-11 00:42:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQCko/A9CedUxmirkkv5hjfkeP5sILqU9h9NvFjv3eI=", "photo"=>{"title"=>"jjj", "category"=>"kkk", "model"=>"kkjjhhg", "shootdate"=>"2014-09-11", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001058ea228 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140911-30824-cfroa9>, @original_filename="20130601-_MG_0024-1-2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20130601-_MG_0024-1-2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 36ms
+
+Dragonfly::S3DataStore::NotConfigured (You need to configure Dragonfly::S3DataStore with access_key_id):
+  app/controllers/photos_controller.rb:13:in `create'
+
+
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-11 00:46:17 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQCko/A9CedUxmirkkv5hjfkeP5sILqU9h9NvFjv3eI=", "photo"=>{"title"=>"jjj", "category"=>"kkk", "model"=>"kkjjhhg", "shootdate"=>"2014-09-11", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000010441bcc0 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140911-30824-1ofvtxz>, @original_filename="20130601-_MG_0024-1-2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20130601-_MG_0024-1-2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms
+
+Dragonfly::S3DataStore::NotConfigured (You need to configure Dragonfly::S3DataStore with access_key_id):
+  app/controllers/photos_controller.rb:13:in `create'
+
+
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/anthonyedwardsjr/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-11 00:46:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 143ms (Views: 119.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 00:46:41 -0400
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-11 00:46:56 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQCko/A9CedUxmirkkv5hjfkeP5sILqU9h9NvFjv3eI=", "photo"=>{"title"=>"sdfsd", "category"=>"sdfd", "model"=>"dsfsd", "shootdate"=>"2014-09-11", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001039bd1e8 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140911-30956-1uplhr8>, @original_filename="20130625-_MG_2821-Edit.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20130625-_MG_2821-Edit.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "photos" ("category", "created_at", "image_uid", "model", "shootdate", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["category", "sdfd"], ["created_at", "2014-09-11 04:47:02.672674"], ["image_uid", "2014/09/11/00/46/57/297/20130625__MG_2821_Edit.jpg"], ["model", "dsfsd"], ["shootdate", "2014-09-11"], ["title", "sdfsd"], ["updated_at", "2014-09-11 04:47:02.672674"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 5744ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-11 00:47:02 -0400
+DRAGONFLY: uid 2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-11 00:47:04 -0400
+DRAGONFLY: uid 2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-11 00:47:06 -0400
+DRAGONFLY: uid 2014/08/31/9ap6qjc5em_IMG00244.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-11 00:47:08 -0400
+DRAGONFLY: uid 2014/08/31/4hyrusamcc_family2_copy.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-11 00:47:10 -0400
+DRAGONFLY: uid 2014/09/01/1hyash4uon_20121110_IMG_3843.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-11 00:47:12 -0400
+DRAGONFLY: uid 2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-11 00:47:14 -0400
+DRAGONFLY: uid 2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-11 00:47:16 -0400
+DRAGONFLY: uid 2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-11 00:47:18 -0400
+DRAGONFLY: uid 2014/09/06/3ckeeffkef_Deanna8web.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-11 00:47:20 -0400
+DRAGONFLY: uid 2014/09/03/4r0c4jk3uy_picture_103.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMTEvMDAvNDYvNTcvMjk3LzIwMTMwNjI1X19NR18yODIxX0VkaXQuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=c58f7973ae498871" for 127.0.0.1 at 2014-09-11 00:47:22 -0400
+DRAGONFLY: shell command: 'convert' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-1m24fkv' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-1mpiwhn.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMTEvMDAvNDYvNTcvMjk3LzIwMTMwNjI1X19NR18yODIxX0VkaXQuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=c58f7973ae498871 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-11 00:47:23 -0400
+DRAGONFLY: uid 2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-11 00:47:25 -0400
+DRAGONFLY: uid 2014/09/03/6jdo2ujsfz_picture_109_21.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-11 00:47:27 -0400
+DRAGONFLY: uid 2014/09/03/3p14vgaz1t_picture_101.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-11 00:47:29 -0400
+DRAGONFLY: uid 2014/09/03/7fb48f93lk_picture_21.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 404
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-11 00:47:31 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=71eb423de4417955" for 127.0.0.1 at 2014-09-11 00:47:31 -0400
+DRAGONFLY: shell command: 'convert' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-cconcw' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-1r8v3i0.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=71eb423de4417955 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-11 00:47:33 -0400
+DRAGONFLY: uid 2014/09/03/5vfqoavpm7_111photo.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 404
+
+
+Started GET "/photos/new" for 127.0.0.1 at 2014-09-11 00:47:35 -0400
+Processing by PhotosController#new as HTML
+  Rendered photos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-11 00:47:35 -0400
+DRAGONFLY: uid 2014/09/03/u71iz8nst_picture_107.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-11 00:47:37 -0400
+DRAGONFLY: uid 2014/09/03/39yzywa3ft_picture_106.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-11 00:47:39 -0400
+DRAGONFLY: uid 2014/09/03/17n3ivcmmm_picture_87.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 404
+
+
+Started POST "/photos" for 127.0.0.1 at 2014-09-11 00:47:47 -0400
+Processing by PhotosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQCko/A9CedUxmirkkv5hjfkeP5sILqU9h9NvFjv3eI=", "photo"=>{"title"=>"dfsd", "category"=>"dsdfs", "model"=>"sdfsd", "shootdate"=>"2014-09-11", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001044af1c8 @tempfile=#<Tempfile:/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/RackMultipart20140911-30956-wxpe07>, @original_filename="20130515-buddy_suit.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[image]\"; filename=\"20130515-buddy_suit.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+  [1m[35m (1.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "photos" ("category", "created_at", "image_uid", "model", "shootdate", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["category", "dsdfs"], ["created_at", "2014-09-11 04:47:50.932205"], ["image_uid", "2014/09/11/00/47/48/944/20130515_buddy_suit.jpg"], ["model", "sdfsd"], ["shootdate", "2014-09-11"], ["title", "dfsd"], ["updated_at", "2014-09-11 04:47:50.932205"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/photos
+Completed 302 Found in 2938ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2014-09-11 00:47:50 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.4ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed" for 127.0.0.1 at 2014-09-11 00:47:51 -0400
+DRAGONFLY: uid 2014/08/31/6sqlm3anoi_904172_350810815030766_452180736_o.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNnNxbG0zYW5vaV85MDQxNzJfMzUwODEwODE1MDMwNzY2XzQ1MjE4MDczNl9vLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=063f84cd19d619ed 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4" for 127.0.0.1 at 2014-09-11 00:47:53 -0400
+DRAGONFLY: uid 2014/08/31/11bn6i2eqq_Nicole_s_Pics_229_2_.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvMTFibjZpMmVxcV9OaWNvbGVfc19QaWNzXzIyOV8yXy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=c3bf4b1f4f93fbc4 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2" for 127.0.0.1 at 2014-09-11 00:47:55 -0400
+DRAGONFLY: uid 2014/08/31/9ap6qjc5em_IMG00244.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvOWFwNnFqYzVlbV9JTUcwMDI0NC5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=5f6f6789baf3f6c2 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9" for 127.0.0.1 at 2014-09-11 00:47:58 -0400
+DRAGONFLY: uid 2014/08/31/4hyrusamcc_family2_copy.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDgvMzEvNGh5cnVzYW1jY19mYW1pbHkyX2NvcHkuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=0d9eb4fd7de6e1c9 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac" for 127.0.0.1 at 2014-09-11 00:48:00 -0400
+DRAGONFLY: uid 2014/09/01/1hyash4uon_20121110_IMG_3843.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDEvMWh5YXNoNHVvbl8yMDEyMTExMF9JTUdfMzg0My5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=42fdef898bee41ac 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c" for 127.0.0.1 at 2014-09-11 00:48:02 -0400
+DRAGONFLY: uid 2014/09/03/adtkte6ss_Screen_Shot_2014_09_02_at_8.28.05_PM.png not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvYWR0a3RlNnNzX1NjcmVlbl9TaG90XzIwMTRfMDlfMDJfYXRfOC4yOC4wNV9QTS5wbmciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=883a74d0bf54147c 404
+
+
+Started POST "/photos/id_show" for 127.0.0.1 at 2014-09-11 00:48:05 -0400
+Processing by PhotosController#id_show as JSON
+  Parameters: {"photo"=>{"image_uid"=>"2014/09/11/00/01/07/769/20130602__MG_0283_Edit_2.jpg"}}
+Can't verify CSRF token authenticity
+  [1m[35mPhoto Load (1.4ms)[0m  SELECT  "photos".* FROM "photos"  WHERE "photos"."image_uid" = '2014/09/11/00/01/07/769/20130602__MG_0283_Edit_2.jpg' LIMIT 1
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd" for 127.0.0.1 at 2014-09-11 00:48:05 -0400
+DRAGONFLY: uid 2014/09/04/8wagc6izae_Add_a_Burst_of_Colour_to_Your_Home_Windows_Design_BRABBU_2.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvOHdhZ2M2aXphZV9BZGRfYV9CdXJzdF9vZl9Db2xvdXJfdG9fWW91cl9Ib21lX1dpbmRvd3NfRGVzaWduX0JSQUJCVV8yLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=ce80642e74b12acd 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0" for 127.0.0.1 at 2014-09-11 00:48:07 -0400
+DRAGONFLY: uid 2014/09/04/456w2ydx6l_Fashionstock_LocationFashionShootWithModelsAtRooftopWithPocketWizard713_261.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDQvNDU2dzJ5ZHg2bF9GYXNoaW9uc3RvY2tfTG9jYXRpb25GYXNoaW9uU2hvb3RXaXRoTW9kZWxzQXRSb29mdG9wV2l0aFBvY2tldFdpemFyZDcxM18yNjEuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=baa2a9813dda32b0 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94" for 127.0.0.1 at 2014-09-11 00:48:10 -0400
+DRAGONFLY: uid 2014/09/06/3ckeeffkef_Deanna8web.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDYvM2NrZWVmZmtlZl9EZWFubmE4d2ViLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=3fddaea523b57a94 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1" for 127.0.0.1 at 2014-09-11 00:48:12 -0400
+DRAGONFLY: uid 2014/09/03/4r0c4jk3uy_picture_103.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNHIwYzRqazN1eV9waWN0dXJlXzEwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=55d173177fea49e1 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2" for 127.0.0.1 at 2014-09-11 00:48:14 -0400
+DRAGONFLY: uid 2014/09/03/76jk47zjl5_Screen_Shot_2014_06_03_at_12.40.09_PM.png not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNzZqazQ3empsNV9TY3JlZW5fU2hvdF8yMDE0XzA2XzAzX2F0XzEyLjQwLjA5X1BNLnBuZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b24d704674e7ab2 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357" for 127.0.0.1 at 2014-09-11 00:48:17 -0400
+DRAGONFLY: uid 2014/09/03/6jdo2ujsfz_picture_109_21.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNmpkbzJ1anNmel9waWN0dXJlXzEwOV8yMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=80621be78b10c357 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMTEvMDAvNDcvNDgvOTQ0LzIwMTMwNTE1X2J1ZGR5X3N1aXQuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=91601db279c32f9a" for 127.0.0.1 at 2014-09-11 00:48:19 -0400
+DRAGONFLY: shell command: 'convert' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-bv74cb' '-resize' '400x300^^' '-gravity' 'Center' '-crop' '400x300+0+0' '+repage' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-yz4htg.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMTEvMDAvNDcvNDgvOTQ0LzIwMTMwNTE1X2J1ZGR5X3N1aXQuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4MzAwIyJdXQ?sha=91601db279c32f9a 200
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100" for 127.0.0.1 at 2014-09-11 00:48:25 -0400
+DRAGONFLY: uid 2014/09/03/3p14vgaz1t_picture_101.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvM3AxNHZnYXoxdF9waWN0dXJlXzEwMS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=6501e8a6639da100 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac" for 127.0.0.1 at 2014-09-11 00:48:27 -0400
+DRAGONFLY: uid 2014/09/03/39yzywa3ft_picture_106.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMzl5enl3YTNmdF9waWN0dXJlXzEwNi5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=d337d3a81bc08fac 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3" for 127.0.0.1 at 2014-09-11 00:48:30 -0400
+DRAGONFLY: uid 2014/09/03/7fb48f93lk_picture_21.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvN2ZiNDhmOTNsa19waWN0dXJlXzIxLmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=eed59a725a12c1a3 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635" for 127.0.0.1 at 2014-09-11 00:48:32 -0400
+DRAGONFLY: uid 2014/09/03/5vfqoavpm7_111photo.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvNXZmcW9hdnBtN18xMTFwaG90by5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgzMDAjIl1d?sha=235216eadeb0b635 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf" for 127.0.0.1 at 2014-09-11 00:48:34 -0400
+DRAGONFLY: uid 2014/09/03/u71iz8nst_picture_107.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvdTcxaXo4bnN0X3BpY3R1cmVfMTA3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=0b61e19c963b75cf 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862" for 127.0.0.1 at 2014-09-11 00:48:37 -0400
+DRAGONFLY: uid 2014/09/03/17n3ivcmmm_picture_87.jpg not found
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMDMvMTduM2l2Y21tbV9waWN0dXJlXzg3LmpwZyJdLFsicCIsInRodW1iIiwiNDAweDMwMCMiXV0?sha=05792d0b266f2862 404
+
+
+Started GET "/media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIng1MDAiXV0?sha=dfbf54fb1c65b62a" for 127.0.0.1 at 2014-09-11 00:48:39 -0400
+DRAGONFLY: shell command: 'convert' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-1cchdvl' '-resize' 'x500' '/var/folders/0j/7sgvch4d60l7w0_fk2r7mgy00000gn/T/dragonfly20140911-30956-s8hs03.jpg'
+DRAGONFLY: GET /media/W1siZiIsIjIwMTQvMDkvMTEvMDAvMDEvMDcvNzY5LzIwMTMwNjAyX19NR18wMjgzX0VkaXRfMi5qcGciXSxbInAiLCJ0aHVtYiIsIng1MDAiXV0?sha=dfbf54fb1c65b62a 200
