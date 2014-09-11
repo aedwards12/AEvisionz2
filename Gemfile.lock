@@ -168,6 +168,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   dragonfly
   dragonfly-s3_data_store
+  fog
   jbuilder (~> 2.0)
   jquery-rails
   pg

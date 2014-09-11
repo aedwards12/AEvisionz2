@@ -14,7 +14,7 @@
     <% @photos.each do |photo| %>
       <li class="small-12 medium-4 large-3 columns img-align" data-category="<%=photo.category%>"  >
        <%= link_to image_tag(photo.image.thumb('400x300#').url, alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid  ),
-                     photo.image.url, target: '_blank' %>
+                     photo.image.remote_url, target: '_blank' %>
         <!-- <p><%= photo.title %></p> -->
       </li>
     <% end %>
@@ -29,7 +29,7 @@
  </div> 
 <footer class="row">
 	
-	<!-- <h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3> -->
+	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3> 
 
 </footer>
 
