@@ -10,7 +10,7 @@
 /tmp/
 /log
 /public/system/dragonfly
-
+public/assets/**
 ## Specific to RubyMotion:
 .dat*
 .repl_history
