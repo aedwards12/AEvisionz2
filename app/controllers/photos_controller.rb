@@ -2,6 +2,7 @@ class PhotosController < ApplicationController
 
 	def index
 		@photos = Photo.all
+
 	end
 
 	def new
@@ -11,6 +12,7 @@ class PhotosController < ApplicationController
 	def create 
 		@photo = Photo.new(photo_params)
 		if @photo.save
+			p @photo
 			flash[:success] = "Photo saved"
 			redirect_to photos_path
 		else
@@ -24,7 +26,7 @@ class PhotosController < ApplicationController
 		@photo = Photo.find_by(params["photo"])
 
 		if @photo
-		  render json: @photo.image.thumb('x500').url.to_json		
+		  render json: @photo.image.thumb('x500').url(name: @photo.image_uid).to_json		
 		else
 		  render json: "failed".to_json
 		end  
