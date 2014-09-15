@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function(){
                 header.classList.remove("smaller");
             }
                // header.classList.toggle("smaller");
-
         }
     });
 
