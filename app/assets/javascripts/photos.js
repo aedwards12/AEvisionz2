@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function(){
 	console.log("content loaded");
 
+	 
+
 	var categories = document.querySelector(".categories");
 	categories.addEventListener('click', showcategory);
 
-	var img = document.querySelector("#photos-list");
+	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
 	// console.log(img)
 
