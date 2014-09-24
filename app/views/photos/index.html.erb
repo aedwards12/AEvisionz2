@@ -1,35 +1,56 @@
 <header class="row">
-	<h1>AEvisionz</h1>
-  <div class="categories">
-    <ul>
+  <div class="row">
+  	<h1 class="columns small-12 medium-6">AEvisionz</h1>
+    <h2 class="columns small-12 medium-6">(845)750-5646</h2>
+  </div>
+ <div class="categories row">
+  <!-- <div class="categories"> -->
+    <ul id="nav">
       <li>all</li>
-      <li>landscape</li>
+      <li>fashion</li>
+      <li>beauty</li>
+      <li>artist/heashots</li>
+      <li id="landscape">landscape</li>
       <li id="shuffle">shuffle</li>
     </ul>
-  </div>
+  <!-- </div> -->
+</div>
   <a href="#openModal" id="openM">Open Modal</a>
 </header>
-<section class="row ">
-  <ul id="photos-list" class="row">
+<section class="row">
+  <!-- <ul id="photos-list"> -->
+  <div id="masonry-container" class="large-12 columns transitions-enabled large-centered clearfix photos-list">
     <% @photos.each do |photo| %>
-      <li class="small-12 medium-4 large-3 columns img-align" data-category="<%=photo.category%>"  >
-       <%= link_to image_tag(photo.image.thumb('400x300#').url, alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid  ),
-                     photo.image.url, target: '_blank' %>
-        <!-- <p><%= photo.title %></p> -->
-      </li>
+      <div class="box col3" data-category="<%=photo.category%>"  >
+       <%= link_to image_tag(photo.image.thumb('400x200#').url(name: photo.image_uid), alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid  ),
+                    'http://d3qsxujqwcvsf0.cloudfront.net'+photo.image_uid, target: '_blank' %>
+        <!-- <p><%= photo.image.url%></p> -->
+      </div>
     <% end %>
-  </ul>
+  </div>
+  <!-- </ul> -->
 </section>
 
 <div id="openModal" class="modalDialog">
   <div class="columns small-12 medium-8 small-centered"> <a href="#close" title="Close" class="close" id="close">X</a>
-    <div id="imageView"  class="columns small-12">
+    <div id="imageView"  class="large-12 columns large-centered clearfix">
     </div>
   </div>
  </div> 
 <footer class="row">
+     
 	
-	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3>
+	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3> 
 
 </footer>
+<script>
+    var $containter = $('#masonry-container');
+    $containter.imagesLoaded( function(){
+        $containter.masonry({
+          itemSelector: '.box',
+          isAnimated: !Modernizr.csstransitions,
+          isFitWidth: true
+     });  
+});
+</script>
 

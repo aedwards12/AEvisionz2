@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function(){
 	console.log("content loaded");
 
+	 
+
 	var categories = document.querySelector(".categories");
 	categories.addEventListener('click', showcategory);
 
-	var img = document.querySelector("#photos-list");
+	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
 	// console.log(img)
 
@@ -24,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function(){
                 header.classList.remove("smaller");
             }
                // header.classList.toggle("smaller");
-
         }
     });
 
@@ -32,8 +33,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function showcategory(event){
 	//show individual category or show all
+	if (event.target === document.querySelector("#nav")){
+		return null;
+	}
+
 	var category = event.target.innerHTML;
-	// console.log(category)
+	 console.log(category)
+	 // if catergory == 
 
 	if (category !== "all" && category != "shuffle"){			
 		var photos = document.querySelectorAll('li[data-category]');
@@ -41,7 +47,12 @@ function showcategory(event){
 		for(var i = 0; i<photos.length; i++){
 			 // console.log(photos[i].dataset.category=== category)
 			if (photos[i].dataset.category !== category){
-			photos[i].style.display = "none";
+				// toggle display
+				if (photos[i].style.display == "none"){
+					photos[i].style.display = "";
+				}else{
+					photos[i].style.display = "none";
+				}
 			}
 		}
 	}else if(category === "shuffle") {
