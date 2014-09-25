@@ -61171,3 +61171,278 @@ Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:12:4
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:12:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:13:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 12:16:37 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (3.9ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 751ms (Views: 745.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:16:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 12:18:23 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (1.4ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 1263ms (Views: 1259.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:18:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 12:21:52 -0400
+Processing by PhotosController#index as HTML
+  [1m[36mPhoto Load (0.5ms)[0m  [1mSELECT "photos".* FROM "photos"[0m
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 403ms (Views: 402.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:52 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:21:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+Processing by PhotosController#index as HTML
+  [1m[35mPhoto Load (0.8ms)[0m  SELECT "photos".* FROM "photos"
+  Rendered photos/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 179ms (Views: 177.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/default.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/photo.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/foundation.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/photosjquery.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 12:22:11 -0400

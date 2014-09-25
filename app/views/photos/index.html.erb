@@ -7,7 +7,8 @@
           (845)750-5646</li>
 
         <li><i class="fa fa-envelope-o"></i>
-          anthony@aevisionz.com</li>
+          <%=mail_to "anthony@aevisionz.com" %>
+          </li>
         <li><i class="fa fa-location-arrow"></i>
           Serving the Tri-state area</li>
 
@@ -58,10 +59,7 @@
   </div>
  </div> 
 <footer class="row">
-     
-	
 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3> 
-
 </footer>
 <script>
     var $containter = $('#masonry-container');

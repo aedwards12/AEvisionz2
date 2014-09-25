@@ -144,7 +144,9 @@ header.smaller {
     height: 100px;
 }
 /*images properties*/
-
+section.row{
+  margin-top: 120px;
+}
 .images{
   opacity: 0.4;
   filter: alpha(opacity=40);
