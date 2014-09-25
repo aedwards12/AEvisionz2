@@ -2,6 +2,7 @@
 *.rbc
 /.config
 /config/secrets.yml
+/secret.yml
 /coverage/
 /InstalledFiles
 /pkg/
@@ -16,6 +17,13 @@ public/assets/**
 .dat*
 .repl_history
 build/
+
+######################
+*.log
+*.sql
+*.sqlite
+*.yml
+
 
 ## Documentation cache and generated files:
 /.yardoc/

@@ -25,6 +25,10 @@
         -ms-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
 }
+
+.open-modal{
+  visibility: hidden;
+}
  #photos-list p {
       margin: 0;
       overflow: hidden;
@@ -56,6 +60,35 @@
   height: auto !important;
  }
 
+.social{
+  color: #5D5D5D;
+  padding-top:20px;
+}
+
+
+.fa:hover{
+  color:#FFFFFF;
+}
+
+.contact li{
+  display: block;
+  color:#2ba6cb;
+  font-size: 12px;
+}
+
+.contact.smaller{
+  font-size: 10px;
+}
+
+.contact li:hover{
+  color:#FFFFFF;
+}
+
+.icons li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
 h1{
   font-family: 'Quicksand', sans-serif;
   font-size: 4.75rem;
@@ -84,9 +117,6 @@ header {
     -ms-transition: height 0.5s;
     -o-transition: height 0.5s;
     transition: height 0.5s;
-}
-header a{
-  visibility: hidden;
 }
 
 header h1{
@@ -145,7 +175,7 @@ footer{
 .categories li{
   margin-right: 1.2em;
   font-size: 1em;
-  color: rgb(64, 120, 182);
+ color:#2ba6cb;
 }
 
 .categories li:hover{
