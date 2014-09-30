@@ -3,26 +3,31 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	 
 
-	var categories = document.querySelector(".categories");
-	categories.addEventListener('click', showcategory);
+	// var categories = document.querySelector(".categories");
+	// categories.addEventListener('click', showcategory);
 
 	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
-	// console.log(img)
+	 console.log(img)
+	 console.log("dsdsd")
 
 	var closeModal = document.querySelector("#close");
 	closeModal.addEventListener('click', closeImageModal)
 
-	 window.addEventListener('scroll', function(e){
+	window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop
         var shrinkOn = 200;
            header = document.querySelector("header");
+           text = document.querySelector(".contact");
            console.log(distanceY)
         if (distanceY > shrinkOn) {
         	header.classList.add("smaller");
-            // classie.add(header,"smaller");
+        	text.classList.add("smaller")
         } else {
             if (header.classList.contains("smaller")) {
+                header.classList.remove("smaller");
+            }
+            else if (text.classList.contains("smaller")) {
                 header.classList.remove("smaller");
             }
                // header.classList.toggle("smaller");
@@ -33,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function showcategory(event){
 	//show individual category or show all
+	console.log(event.target)
 	if (event.target === document.querySelector("#nav")){
 		return null;
 	}
@@ -73,23 +79,29 @@ function showcategory(event){
 
             var turnObjToArray = function(obj) {
 			  return [].map.call(obj, function(element) {
+			  	// console.log(element);
 			    return element;
 			  })
 			};
 
-			var photos = document.querySelectorAll('li[data-category]');
-			var parent = document.querySelector("#photos-list");
+			var photos = document.querySelectorAll('div[data-category]');
+			var parent = document.querySelector("#masonry-container");
+
 
 			var listimages = turnObjToArray(photos);
+			console.log(listimages[1]);
 			listimages.shuffle();
+      console.log(listimages[1]);
 
 			//remove elements from parent
+			// console.log(parent.firstChild=== document.querySelector("#masonry-container").firstChild)
 			while (parent.firstChild) {
 			  parent.removeChild(parent.firstChild);
 			}		
 
 			for(var i = 0; i<listimages.length; i++){
-			  parent.appendChild(listimages[i])
+				console.log(listimages[i])
+			  document.querySelector("#masonry-container").appendChild(listimages[i])
 			}
 
 	}else { 

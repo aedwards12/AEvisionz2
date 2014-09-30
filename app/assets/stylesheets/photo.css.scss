@@ -1,0 +1,272 @@
+
+
+#photos-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 150px;
+  clear: both;
+  list-style-type: none;
+}
+
+#photo-list img{
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+#photos-list li {
+    padding: 0;
+    margin: 0;
+   
+    /*-webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out;*/
+     -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+
+.open-modal{
+  visibility: hidden;
+}
+ #photos-list p {
+      margin: 0;
+      overflow: hidden;
+}
+
+.img-align{
+  text-align: center;
+  /*display: block;*/
+}
+.img-thumbnail{
+  padding: 0px;
+  border: none;
+
+}
+.img-container li{
+  /*display: inline-block;*/
+  float: left;
+}
+
+
+.col-xs-3{
+  width: 0%;
+}
+
+.spacing{
+  width: 0%;
+ }
+ .height{
+  height: auto !important;
+ }
+
+.social{
+  color: #5D5D5D;
+  padding-top:20px;
+}
+
+
+.fa:hover{
+  color:#FFFFFF;
+}
+
+.contact li{
+  display: block;
+  color:#2ba6cb;
+  font-size: 12px;
+}
+
+.contact.smaller{
+  font-size: 10px;
+}
+
+.contact li:hover{
+  color:#FFFFFF;
+}
+
+.icons li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4.75rem;
+}
+
+li {
+  display: inline;
+}
+
+h1{
+  margin: 0px 0px;
+}
+
+header {
+  position: fixed;
+  top:0;
+  left: 0;
+ 
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 4;
+  color: white;
+   -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+
+}
+
+header .row h1{
+  /*padding-left:1em;*/
+  color: white;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+header.smaller h1 {
+  font-size: 3em;
+  color: white;
+}
+
+header ul{
+  margin: 0px 0px;
+}
+
+header.row{
+  max-width: 100%;
+}
+
+header.smaller {
+    height: 100px;
+}
+/*images properties*/
+section.row{
+  margin-top: 160px;
+}
+.images{
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.images:hover{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 1);
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/*footer section*/
+footer{
+  height: 10em;
+}
+
+/*categories labels*/
+
+.categories li{
+  margin-right: 1.2em;
+  font-size: 1em;
+ color:#2ba6cb;
+}
+
+.categories li:hover{
+  color: rgb(114, 170, 222);
+}
+
+/*photoform*/
+.shoot-form{
+  margin-left: 10em;
+  width: 200px;
+}
+
+/*myModals*/
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  
+  margin: 0 auto;
+  border-radius: 10px;
+  /*background: #fff;*/
+  text-align: center;
+  /*background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);*/
+}
+
+#imageView {
+  margin-top:10px;
+  width: 400px;
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+.top-bar-section li:not(.has-form) a:not(.button){
+  background-color: black;
+}
+.top-bar-section ul li.active > a {
+    background: black !important;   
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: black !important;   
+}
+
+.top-bar-section li a:not(.button){
+   color:#2BA6CB !important; /*example */
+   background-color: black !important;
+}
+
+.top-bar {
+    background:black !important;
+}
+

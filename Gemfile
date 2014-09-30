@@ -3,12 +3,12 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 gem 'thin'
 gem 'fog'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 gem 'pg'
+gem 'masonry-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -45,6 +45,8 @@ gem 'spring',        group: :development
 gem 'dragonfly'
 gem 'dragonfly-s3_data_store'
 gem 'bootstrap-sass'
+gem 'foundation-rails'
+
 group :production do
   gem 'rack-cache', :require => 'rack/cache'
 end
