@@ -22,27 +22,26 @@
       </ul>   
     </div>
   </div>
-
-
- <div class="categories row">
+<div class="categories row">
   <!-- <div class="categories"> -->
     <ul id="nav">
-      <li>all</li>
-      <li>fashion</li>
-      <li>beauty</li>
-      <li>artist/heashots</li>
-      <li id="landscape">landscape</li>
+      <li  data-filter="*">all</li>
+      <li  data-filter=".fashion">fashion</li>
+      <li  data-filter=".beauty">beauty</li>
+      <li  data-filter=".artist, .headshots">artist/headshots</li>
+      <li id="landscape"  data-filter=".landscape">landscape</li>
       <li id="shuffle">shuffle</li>
     </ul>
   <!-- </div> -->
 </div>
-  <a href="#openModal" class="open-modal" id="openM">Open Modal</a>
+<a href="#openModal" class="open-modal" id="openM">Open Modal</a>
 </header>
+
 <section class="row">
   <!-- <ul id="photos-list"> -->
-  <div id="masonry-container" class="large-12 columns transitions-enabled large-centered clearfix photos-list">
+  <div id="masonry-container" class="large-12 columns transitions-enabled large-centered clearfix photos-list isotope">
     <% @photos.each do |photo| %>
-      <div class="box col3" data-category="<%=photo.category%>"  >
+      <div class="box col2 <%=photo.category%>" data-category="<%=photo.category%>"  >
        <%= link_to image_tag(photo.image.thumb('400x200#').url(name: photo.image_uid), alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid  ),
                     'http://d3qsxujqwcvsf0.cloudfront.net'+photo.image_uid, target: '_blank' %>
         <!-- <p><%= photo.image.url%></p> -->
@@ -57,18 +56,8 @@
     <div id="imageView"  class="large-12 columns large-centered clearfix">
     </div>
   </div>
- </div> 
+</div> 
 <footer class="row">
 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3> 
 </footer>
-<script>
-    var $containter = $('#masonry-container');
-    $containter.imagesLoaded( function(){
-        $containter.masonry({
-          itemSelector: '.box',
-          isAnimated: !Modernizr.csstransitions,
-          isFitWidth: true
-     });  
-});
-</script>
 
