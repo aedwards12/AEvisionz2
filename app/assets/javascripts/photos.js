@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	var closeModal = document.querySelector("#close");
 	closeModal.addEventListener('click', closeImageModal)
 
-	 window.addEventListener('scroll', function(e){
+	window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop
         var shrinkOn = 200;
            header = document.querySelector("header");

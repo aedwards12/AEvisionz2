@@ -1,7 +1,7 @@
 <header class="row">
-  <div class="row">
+  <div class="row text-center">
   	<h1 class="columns small-12 medium-6 ">AEvisionz</h1>
-    <div class="columns small-12 medium-3 social">
+    <div class="columns small-12 medium-3 social text-center">
       <ul class="contact">
         <li><i class="fa fa-phone"></i>
           (845)750-5646</li>
@@ -14,7 +14,7 @@
 
       </ul>
     </div>
-   <div class="columns small-12 medium-3 social">  
+   <div class="columns small-12 medium-3 social text-center">  
     <ul class="icons">    
       <li><a href="https://www.facebook.com/AEvisionz"><i class="fa fa-facebook-square fa-3x"></i></a></li>
       <li><a href="https://twitter.com/AnthonyEdwardsj"><i class="fa fa-twitter fa-3x"></i></a></li>
@@ -22,18 +22,10 @@
       </ul>   
     </div>
   </div>
-<div class="categories row">
-  <!-- <div class="categories"> -->
-    <ul id="nav">
-      <li  data-filter="*">all</li>
-      <li  data-filter=".fashion">fashion</li>
-      <li  data-filter=".beauty">beauty</li>
-      <li  data-filter=".artist, .headshots">artist/headshots</li>
-      <li id="landscape"  data-filter=".landscape">landscape</li>
-      <li id="shuffle">shuffle</li>
-    </ul>
-  <!-- </div> -->
-</div>
+    <%= render 'shared/navigation' %>
+
+
+
 <a href="#openModal" class="open-modal" id="openM">Open Modal</a>
 </header>
 

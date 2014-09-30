@@ -45,6 +45,8 @@ gem 'spring',        group: :development
 gem 'dragonfly'
 gem 'dragonfly-s3_data_store'
 gem 'bootstrap-sass'
+gem 'foundation-rails'
+
 group :production do
   gem 'rack-cache', :require => 'rack/cache'
 end

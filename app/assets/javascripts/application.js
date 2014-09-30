@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require imagesloaded.pkgd.min
-//= require isotope.pkgd.min
-//= require jquery.masonry.min
+//= require foundation
 //= require turbolinks
 //= require_tree .
+$(function(){ $(document).foundation(); });
+
