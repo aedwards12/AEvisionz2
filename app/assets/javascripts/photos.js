@@ -3,12 +3,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	 
 
-	var categories = document.querySelector(".categories");
-	categories.addEventListener('click', showcategory);
+	// var categories = document.querySelector(".categories");
+	// categories.addEventListener('click', showcategory);
 
 	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
-	// console.log(img)
+	 console.log(img)
+	 console.log("dsdsd")
 
 	var closeModal = document.querySelector("#close");
 	closeModal.addEventListener('click', closeImageModal)
