@@ -4,16 +4,11 @@ document.addEventListener('DOMContentLoaded', function(){
     $container.imagesLoaded( function(){
       $container.isotope({
         itemSelector: '.box',
-    //  layoutMode: 'fitRows'
-        // getSortData: {
-        //   fashion: '[data-fashion]',
-        //   beauty: '[data-beauty]',
-        //   headshots: '[data-headshots]',
-        //   landscape: '[data-landscape]',
-        //   category: '[data-category]',
-
-        // },
-        // sortBy: [ 'fashion','beauty']
+    
+         masonry: {
+          columnWidth: 200,
+          isFitWidth: true
+    }
 
       });
 

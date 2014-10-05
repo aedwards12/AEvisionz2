@@ -115,7 +115,6 @@ header {
     -ms-transition: height 0.5s;
     -o-transition: height 0.5s;
     transition: height 0.5s;
-
 }
 
 header .row h1{
@@ -148,7 +147,7 @@ section.row{
   margin-top: 160px;
 }
 .images{
-  opacity: 0.4;
+  opacity: 0.5;
   filter: alpha(opacity=40);
   -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -268,5 +267,18 @@ footer{
 
 .top-bar {
     background:black !important;
+}
+
+.isotope {
+  /*background: #DDD;*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
