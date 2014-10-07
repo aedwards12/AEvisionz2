@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', function(){
       $container.isotope({
         itemSelector: '.box',
     
-         masonry: {
+        masonry: {
           columnWidth: 200,
           isFitWidth: true
-    }
+        }
 
       });
 
-      $container.masonry({
-        itemSelector: '.box',
-        isAnimated: !Modernizr.csstransitions,
-        isFitWidth: true
-     });  
+     //  $container.masonry({
+     //    itemSelector: '.box',
+     //    isAnimated: !Modernizr.csstransitions,
+     //    isFitWidth: true
+     // });  
   });
 
    // $container.isotope({    
