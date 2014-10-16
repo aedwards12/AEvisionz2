@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', function(){
 		});
 });
 
-
-
 function imageModal(event){
 	event.preventDefault();
 	document.querySelector("#pictureModal").click();
@@ -33,5 +31,15 @@ function imageModal(event){
 	var imageDisplay = document.createElement('img');
 	imageDisplay.setAttribute('src', event.target.src);
 	image_modal.appendChild(imageDisplay);
+
+	console.log(event.target.height)
+	console.log(event.target.width)
+
+	if (event.target.height < event.target.width){
+		image_modal.className += ' medium';
+	}else{
+		image_modal.classList.remove("medium");
+		console.log(this.classList);
+	}
 }
 
