@@ -281,13 +281,12 @@ footer{
   clear: both;
 }
 #pictureModal{
-  position:absolute;
- 
   background-color: #1c1c1c;
+  display:block;
+  margin:0 auto;
+  top:20px;
+  
   img{
-  position: relative;
-  top: 0px;
-  left: 0px;
   display:block;
    margin:0 auto;
   }
