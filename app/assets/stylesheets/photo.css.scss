@@ -1,5 +1,7 @@
 
-
+.photos-list{
+   margin-top: 150px;
+}
 #photos-list {
   padding: 0;
   margin: 0;
@@ -143,9 +145,6 @@ header.smaller {
     height: 100px;
 }
 /*images properties*/
-section.row{
-  margin-top: 160px;
-}
 .images{
   opacity: 0.5;
   filter: alpha(opacity=40);
@@ -281,4 +280,16 @@ footer{
   display: block;
   clear: both;
 }
+#pictureModal{
+  position:absolute;
+ 
+  background-color: #1c1c1c;
+  img{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display:block;
+   margin:0 auto;
+  }
 
+}
