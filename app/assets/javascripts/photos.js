@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				var shrinkOn = 200;
 					 header = document.querySelector("header");
 					 text = document.querySelector(".contact");
-						console.log(distanceY)
+						// console.log(distanceY)
 				if (distanceY > shrinkOn) {
 					header.classList.add("smaller");
 					text.classList.add("smaller")
