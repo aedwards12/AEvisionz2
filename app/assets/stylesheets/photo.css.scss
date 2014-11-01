@@ -75,7 +75,7 @@
 .contact li{
   display: block;
   color:#2ba6cb;
-  font-size: 12px;
+  font-size: 13px;
   text-align: left;
 }
 
@@ -248,7 +248,9 @@ footer{
 
 .close:hover { background: #00d9ff; }
 
-
+.top-bar .name h1 a{
+  color: rgb(134, 134, 134) !important; ;
+}
 .top-bar-section li:not(.has-form) a:not(.button){
   background-color: black;
 }
