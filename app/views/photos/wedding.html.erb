@@ -1,0 +1,44 @@
+<header class="row wedding_header">
+  <div class="row text-center">
+  	<h1 class="columns small-12 medium-6 ">AEvisionz</h1>
+    <div class="columns small-12 medium-3 social contact-wrapper">
+      <ul class="contact">
+        <li class="wedding-line"><i class="fa fa-phone"></i>
+          (845)750-5646</li>
+        <li class="wedding-line"><i class="fa fa-envelope-o"></i>
+          <%=mail_to "anthony@aevisionz.com" %>
+          </li>
+        <li class="wedding-line"><i class="fa fa-location-arrow"></i>
+          Serving the Tri-state area</li>
+      </ul>
+    </div>
+   <div class="columns small-12 medium-3 social text-center">  
+    <ul class="icons wedding-color">    
+      <li><a href="https://www.facebook.com/AEvisionz"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+      <li><a href="https://twitter.com/AnthonyEdwardsj"><i class="fa fa-twitter fa-3x"></i></a></li>
+      <li><a href="https://instagram.com/aevisionz/"><i class="fa fa-instagram fa-3x"></i></a></li>
+      </ul>   
+    </div>
+  </div>
+    <%= render 'shared/wedding_nav' %>
+<a href="#openModal" class="open-modal" id="openM">Open Modal</a>
+</header>
+
+<section class="row ">
+  <div id="masonry-container" class="large-12 columns transitions-enabled large-centered clearfix photos-list isotope">
+    <% @photos.each do |photo| %>
+      <div class="box col2 <%=photo.category%>" data-category="<%=photo.category%>"  >
+       <%= link_to image_tag(photo.image.thumb('400x200#').url(name: photo.image_uid), alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid, :"data-reveal-id" => "pictureModal"  ),
+          'http://d3qsxujqwcvsf0.cloudfront.net'+photo.image_uid, target: '_blank' %>
+        <!-- <p><%= photo.image.url%></p> -->
+      </div>
+    <% end %>
+  </div>
+</section>
+
+<div id="pictureModal" class="reveal-modal small override_modal" data-reveal>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<footer class="row">
+<!-- 	<h3><%= link_to 'Add your photo', new_photo_path, class: 'btn btn-lg btn-primary' %></h3>  -->
+</footer>

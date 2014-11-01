@@ -76,6 +76,7 @@
   display: block;
   color:#2ba6cb;
   font-size: 12px;
+  text-align: left;
 }
 
 .contact.smaller{
@@ -104,8 +105,8 @@ h1{
   margin: 0px 0px;
 }
 
-header {
-  position: fixed;
+.photos_header{
+  /*position: fixed;*/
   top:0;
   left: 0;
  
@@ -119,7 +120,7 @@ header {
     transition: height 0.5s;
 }
 
-header .row h1{
+.photos_header h1{
   /*padding-left:1em;*/
   color: white;
     -webkit-transition: all 0.5s;
@@ -128,20 +129,20 @@ header .row h1{
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-header.smaller h1 {
+.photos_header .smaller h1 {
   font-size: 3em;
   color: white;
 }
 
-header ul{
+.photos_header  ul{
   margin: 0px 0px;
 }
 
-header.row{
+.photos_header .row{
   max-width: 100%;
 }
 
-header.smaller {
+.photos_header .smaller {
     height: 100px;
 }
 /*images properties*/
@@ -292,6 +293,8 @@ footer{
   }
 }
 
-#masonry-container{
-  margin-top: 180px;
+/*form*/
+
+.color{
+  color:white;
 }

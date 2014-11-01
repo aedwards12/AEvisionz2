@@ -6,8 +6,11 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   resources :photos, only: [:new, :create, :index, :show]
-  post 'photos/id_show'
-  root to: 'photos#index'
+  get 'wedding', to: 'photos#wedding', as: :wedding_path 
+    
+  # , only: [:new, :create, :index, :show]
+  # post 'photos/id_show'
+   root to: 'photos#index'
 
   
   # Example of regular route:
