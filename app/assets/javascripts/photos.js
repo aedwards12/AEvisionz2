@@ -27,7 +27,7 @@ function imageModal(event){
 	event.preventDefault();
 	document.querySelector("#pictureModal").click();
 	var image_modal = document.querySelector("#pictureModal");
-	image_modal.innerHTML = " ";
+	image_modal.innerHTML = "<a class='close-reveal-modal'>&#215;</a> ";
 	var imageDisplay = document.createElement('img');
 	imageDisplay.setAttribute('src', event.target.src);
 	image_modal.appendChild(imageDisplay);
