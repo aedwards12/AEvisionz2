@@ -4,7 +4,6 @@ ruby '2.1.0'
 gem 'pg'
 gem 'thin'
 gem 'fog'
-gem 'dotenv-rails', :groups => [:development, :test]
 
 # gem 'puma'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
