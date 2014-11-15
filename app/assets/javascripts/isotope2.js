@@ -2,7 +2,6 @@ $(window).load(function(){
 
  // $container = $('#masonry-container');
 
- $(window).width() < 600 ? $( ".box" ).removeClass( "col2" ).addClass( "col3" )  : 10;
 
  var $container = $('#masonry-container').isotope({
     
@@ -10,6 +9,7 @@ $(window).load(function(){
     
         masonry: {
           columnWidth: 5,
+          gutter: 10,
           isFitWidth: true
         }
       });

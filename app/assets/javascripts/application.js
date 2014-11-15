@@ -16,3 +16,4 @@
 //= require_tree .
 $(function(){ $(document).foundation(); });
 
+ $(window).width() < 600 ? $( ".box" ).removeClass( "col2" ).addClass( "col3" )  : 10;
