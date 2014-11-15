@@ -28,7 +28,7 @@
 </header>
 
 <section class="row ">
-  <div id="masonry-container" class="large-12 columns transitions-enabled large-centered clearfix photos-list isotope">
+  <div id="masonry-container" class="small-12 columns transitions-enabled large-centered clearfix photos-list isotope">
     <% @photos.each do |photo| %>
       <div class="box col2 <%=photo.category%>" data-category="<%=photo.category%>"  >
        <%= link_to image_tag(photo.image.thumb('400x200#').url(name: photo.image_uid), alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid, :"data-reveal-id" => "pictureModal"  ),
