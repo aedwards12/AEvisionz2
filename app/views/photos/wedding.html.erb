@@ -30,7 +30,6 @@
       <div class="box col2 <%=photo.category%>" data-category="<%=photo.category%>"  >
        <%= link_to image_tag(photo.image.thumb('400x200#').url(name: photo.image_uid), alt: photo.title,  class:'images', id: :"#openModal", :"data-id" => photo.image_uid, :"data-reveal-id" => "pictureModal"  ),
           'http://d3qsxujqwcvsf0.cloudfront.net'+photo.image_uid, target: '_blank' %>
-        <!-- <p><%= photo.image.url%></p> -->
       </div>
     <% end %>
   </div>
