@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function(){
      //      category: '[data-category]',
 
      //    }
-     // });    
-  $('#nav').on( 'click', 'li', function() {
+     // });  
+  $('#nav > li > ul').on( 'click', 'li', function() {
     var filterValue = $(this).attr('data-filter');
     console.log(filterValue)
     $container.isotope({ filter: filterValue });
