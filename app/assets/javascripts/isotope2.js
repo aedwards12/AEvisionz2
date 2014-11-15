@@ -1,12 +1,16 @@
 document.addEventListener('DOMContentLoaded', function(){
 
  $container = $('#masonry-container');
+
+ var size = $(window).width() > 600 ? 100 : 100;
+ console.log($(window).width())
+console.log(size);
     $container.imagesLoaded( function(){
       $container.isotope({
         itemSelector: '.box',
     
         masonry: {
-          columnWidth: 200,
+          columnWidth: size,
           isFitWidth: true
         }
 
