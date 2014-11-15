@@ -9,7 +9,7 @@ $(window).load(function(){
     
         masonry: {
           columnWidth: 5,
-          gutter: 10,
+          gutter: 80,
           isFitWidth: true
         }
       });
