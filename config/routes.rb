@@ -7,10 +7,8 @@ Rails.application.routes.draw do
 
   resources :photos, only: [:new, :create, :index, :show]
   get 'wedding', to: 'photos#wedding', as: :wedding_path 
-    
-  # , only: [:new, :create, :index, :show]
-  # post 'photos/id_show'
-   root to: 'photos#index'
+  get 'photos/new_multiple', to: 'photos#new_multiple', as: :new_photo_multiple
+  root to: 'photos#index'
 
   
   # Example of regular route:

@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/Springest/jquery-fileupload-rails.git
+  revision: 2ebfdf1cc9a768f36420aaad9668ba68f2a5943b
+  specs:
+    jquery-fileupload-rails (0.4.2)
+      actionpack (>= 4)
+      railties (>= 4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,6 +148,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
+    remotipart (1.2.1)
     sass (3.2.19)
     sass-rails (4.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -188,11 +197,13 @@ DEPENDENCIES
   fog
   foundation-rails
   jbuilder (~> 2.0)
+  jquery-fileupload-rails!
   jquery-rails
   masonry-rails
   pg
   rack-cache
   rails (= 4.1.4)
+  remotipart (~> 1.2)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring

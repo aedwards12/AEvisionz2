@@ -1,5 +1,8 @@
 class PhotosController < ApplicationController
 
+
+  
+
 	def index
 		@photos = Photo.where.not(category: "wedding")
 	end
@@ -9,13 +12,17 @@ class PhotosController < ApplicationController
 	end
 
 	def create 
-		@photo = Photo.new(photo_params)
-		if @photo.save
-			flash[:success] = "Photo saved"
-			redirect_to photos_path
-		else
-		render 'new'
-		end
+		p "inside create"
+		respond_to do |format|
+			@photo = Photo.new(photo_params)
+			if @photo.save
+				flash[:success] = "Photo saved"
+				format.html {redirect_to photos_path}
+				format.js
+			else
+			render 'new'
+			end
+		end	
 	end
 
 	def id_show
@@ -31,6 +38,11 @@ class PhotosController < ApplicationController
 		@photos = Photo.where(category: "wedding")
 		render layout: "wedding_layout"
 	end	
+
+  def new_multiple
+    @photo = Photo.new
+  end
+	
 	
 	private
 

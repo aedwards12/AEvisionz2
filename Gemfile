@@ -49,7 +49,8 @@ gem 'dragonfly'
 gem 'dragonfly-s3_data_store'
 gem 'bootstrap-sass'
 gem 'foundation-rails'
-
+gem 'remotipart', '~> 1.2'
+gem 'jquery-fileupload-rails', github: 'Springest/jquery-fileupload-rails'
 group :production do
   gem 'rack-cache', :require => 'rack/cache'
 end

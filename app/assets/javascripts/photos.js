@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function(){
 
+	if (document.querySelector(".photos-list")){
 	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
+  
 
 	window.addEventListener('scroll', function(e){
 				var distanceY = window.pageYOffset || document.documentElement.scrollTop
@@ -21,6 +23,16 @@ document.addEventListener('DOMContentLoaded', function(){
 						}
 				}
 		});
+}
+ var multiple_photos_form = $('#new_photo');
+  multiple_photos_form.fileupload({dataType: 'script'});
+
+  multiple_photos_form.on('fileuploadsubmit', function (e, data) {
+     data.formData = multiple_photos_form.serializeArray();
+      console.log("wwowowo");
+console.log(data.formData);
+  });
+  
 });
 
 function imageModal(event){

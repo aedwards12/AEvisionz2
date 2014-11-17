@@ -1,0 +1,40 @@
+ 
+<h3>Upload multiple photos</h3>
+<%= form_for @photo do |f| %>
+  <div class="form-group">
+    <%= f.label :title, class: 'color' %>
+    <%= f.text_field :title, class: 'form-control', required: true %>
+    <%= f.label :category, class: 'color'  %>
+    <%= f.text_field :category, class: 'form-control', required: true %>
+    <%= f.label :model, class: 'color'  %>
+    <%= f.text_field :model, class: 'form-control', required: true %>
+    <%= f.label :shootdate, class: 'color'  %>
+    <%= f.date_field :shootdate, required: true %>
+  </div>
+
+  <div class="form-group">
+  <%= f.label :image %>
+  <%= f.file_field :image, required: true, multiple: true, name: 'photo[image]<div class="entry-thumbnail" data-picture="" data-alt=""><img src="" alt=""></div>' %>
+</div>
+
+  <%= f.submit 'Submit', class: 'btn btn-primary btn-lg' %>
+
+<% end %>
+
+<script>
+  $(document).ready(function() {
+   var multiple_photos_form = $('#new_photo');
+    multiple_photos_form.fileupload({dataType: 'script'});
+ 
+    multiple_photos_form.on('fileuploadsubmit', function (e, data) {
+    	// data.formData = {'photo[shootdate]': $('#photo_shootdate').val()};
+     //  data.formData = {'photo[title]': $('#photo_title').val()};
+     //  data.formData = {'photo[category]': $('#photo_category').val()};
+     //  data.formData = {'photo[model]': $('#photo_model').val()};
+
+      data.formData = multiple_photos_form.serializeArray();
+      console.log("wwowowo")
+      console.log(data.formData)
+    });
+  });
+</script>
