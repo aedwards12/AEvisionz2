@@ -11,7 +11,11 @@
 </head>
 
 <body >
-	<%= yield %>
+  <%= yield %>
+  <div id="aboutMe" class="reveal-modal" data-reveal>
+    <%= render partial: "about_me" %>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <%= javascript_include_tag 'application' %>

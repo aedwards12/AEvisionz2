@@ -29,10 +29,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   multiple_photos_form.on('fileuploadsubmit', function (e, data) {
      data.formData = multiple_photos_form.serializeArray();
-      console.log("wwowowo");
-console.log(data.formData);
   });
-  
 });
 
 function imageModal(event){

@@ -1,8 +1,5 @@
 class PhotosController < ApplicationController
 
-
-  
-
 	def index
 		@photos = Photo.where.not(category: "wedding")
 	end
@@ -12,7 +9,6 @@ class PhotosController < ApplicationController
 	end
 
 	def create 
-		p "inside create"
 		respond_to do |format|
 			@photo = Photo.new(photo_params)
 			if @photo.save
