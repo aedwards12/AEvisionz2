@@ -1,0 +1,19 @@
+
+$("#masonry-container").html("<%= j render  'shared/photos/photos', locals: {photos: @photos} %>");
+ $( ".box" ).removeClass( "col2" ).addClass( "col3" );
+
+ var $container = $('#masonry-container').isotope({
+  itemSelector: '.box',
+  masonry: {
+    columnWidth: 5,
+    gutter: 5,
+    isFitWidth: true
+  }
+});
+
+$(".wedding_title").html( "The Wedding of <%= j  @photos[0].title.upcase %>" );
+
+var elements = $('#masonry-container > div')
+$container.isotope( 'appended', elements )
+
+
