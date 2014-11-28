@@ -8,24 +8,26 @@
   </ul>
 
   <section class="top-bar-section">
-    <!-- Right Nav Section -->
- <!--    <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
+    <!-- Left Nav Section -->
+    <ul class="left" id="nav">
+      <li class="">
+          <a href="/photos">My portfolio</a>
+      </li>
       <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-          <li class="active"><a href="#">Active link in dropdown</a></li>
+          <a href="/weddings">Weddings</a>
+          <ul  class="dropdown">
+              <li><%= link_to 'Juda & Sean',  'wedding/juda&sean', remote: true%></li>
+              <li><%= link_to 'The Castros',  'wedding/Castro', remote: true%></li>
         </ul>
       </li>
-    </ul> -->
+      <li class="">
+          <a href="/events">Events</a>
+      </li>
+    </ul>
 
-    <!-- Left Nav Section -->
-    <ul class="left wedding_header" id="nav">
-      <li class="wedding-nav"><%= link_to 'portfolio', "/" %></li>
-      <li class="wedding-nav"><%= link_to 'Wedding', "/wedding"%></li>
+    <ul class"right">
+     <!-- <li><%= link_to 'Wedding', "/wedding" %></li> -->
+      <li><%= link_to 'About me', "#" , data: {reveal_id: "aboutMe"}%></li>
 
-      <!-- <li id="shuffle"><a>shuffle</a></li> -->
     </ul>
   </section>
-</nav>

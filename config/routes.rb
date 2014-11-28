@@ -6,11 +6,15 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   resources :photos, only: [:new, :create, :index, :show]
-  get 'wedding', to: 'photos#wedding', as: :wedding_path 
+  get 'weddings', to: 'photos#weddings', as: :weddings
+  get 'wedding/:id', to: 'photos#wedding', as: :wedding
   get 'photos/new_multiple', to: 'photos#new_multiple', as: :new_photo_multiple
+  get 'events', to: 'photos#events',  as: :events
+  get 'event/:id', to: 'photos#event', as: :event
+
   root to: 'photos#index'
 
-  
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

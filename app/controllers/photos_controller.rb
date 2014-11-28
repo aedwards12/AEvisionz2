@@ -1,14 +1,14 @@
 class PhotosController < ApplicationController
 
 	def index
-		@photos = Photo.where.not(category: "wedding")
+		@photos = Photo.where.not(category: ["wedding", "event"])
 	end
 
 	def new
 		@photo = Photo.new
 	end
 
-	def create 
+	def create
 		respond_to do |format|
 			@photo = Photo.new(photo_params)
 			if @photo.save
@@ -18,35 +18,44 @@ class PhotosController < ApplicationController
 			else
 			render 'new'
 			end
-		end	
+		end
 	end
 
-	def id_show
-		@photo = Photo.find_by(params["photo"])
-		if @photo
-		  render json: @photo.image.thumb('x500').url(name: @photo.image_uid).to_json		
-		else
-		  render json: "failed".to_json
-		end  
-	end 
+	def weddings
+		@photos = Photo.where(category: "wedding").shuffle.shuffle
+		render layout: "wedding_layout"
+	end
 
 	def wedding
-		@photos = Photo.where(category: "wedding")
-		render layout: "wedding_layout"
-	end	
+		respond_to do |format|
+		  @photos = Photo.where(title: params[:id]).shuffle
+		  format.js
+		end
+	end
 
-  def new_multiple
-    @photo = Photo.new
-  end
-	
-	
+	def events
+		@photos = Photo.where(category: "events")
+	end
+
+	def event
+		respond_to do |format|
+		  @photos = Photo.where(title: params[:id])
+		  format.js
+		end
+	end
+
+      def new_multiple
+        @photo = Photo.new
+      end
+
+
 	private
 
 	def photo_show
 		params.require(:photo).permit(:image_uid)
-	end	
-	
+	end
+
 	def photo_params
 		params.require(:photo).permit(:image, :title, :category, :model, :shootdate)
-	end			
+	end
 end

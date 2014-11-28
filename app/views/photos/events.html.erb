@@ -1,0 +1,43 @@
+<header class="row photos_header">
+  <div class="row ">
+    <h1 class="columns small-12 medium-6 ">AEvisionz</h1>
+    <div class="columns small-12 medium-3 social text-center">
+      <ul class="contact">
+        <li><i class="fa fa-phone"></i>
+          (845)750-5646</li>
+
+        <li><i class="fa fa-envelope-o"></i>
+          <%=mail_to "anthony@aevisionz.com" %>
+          </li>
+        <li><i class="fa fa-location-arrow"></i>
+          Serving the Tri-state area</li>
+
+      </ul>
+    </div>
+   <div class="columns small-12 medium-3 social text-center">
+    social links!
+    <ul class="icons">
+      <li><a href="https://www.facebook.com/AEvisionz"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+      <li><a href="https://twitter.com/AnthonyEdwardsj"><i class="fa fa-twitter fa-3x"></i></a></li>
+      <li><a href="https://instagram.com/aevisionz/"><i class="fa fa-instagram fa-3x"></i></a></li>
+      </ul>
+    </div>
+  </div>
+    <%= render 'shared/events' %>
+</header>
+<a href="#openModal" class="open-modal" id="openM">Open Modal</a>
+
+<section class="row ">
+  <div id="masonry-container" class="small-12 columns transitions-enabled large-centered clearfix photos-list isotope">
+    <%= render 'shared/photos/photos', locals: {photos: @photos} %>
+  </div>
+</section>
+
+<div id="pictureModal" class="reveal-modal small override_modal" data-reveal>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<footer class="row">
+</footer>
+
+
+

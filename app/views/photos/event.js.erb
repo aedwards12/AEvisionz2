@@ -1,0 +1,16 @@
+
+$("#masonry-container").html("<%= j render  'shared/photos/photos', locals: {photos: @photos} %>")
+
+ var $container = $('#masonry-container').isotope({
+  itemSelector: '.box',
+  masonry: {
+    columnWidth: 5,
+    gutter: 5,
+    isFitWidth: true
+  }
+});
+
+var elements = $('#masonry-container > div')
+$container.isotope( 'appended', elements )
+
+
