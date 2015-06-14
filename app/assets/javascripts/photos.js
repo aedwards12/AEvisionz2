@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	if (document.querySelector(".photos-list")){
 	var img = document.querySelector(".photos-list");
 	img.addEventListener('click', imageModal);
-  
+
 
 	window.addEventListener('scroll', function(e){
 				var distanceY = window.pageYOffset || document.documentElement.scrollTop
@@ -24,10 +24,12 @@ document.addEventListener('DOMContentLoaded', function(){
 				}
 		});
 }
- var multiple_photos_form = $('#new_photo');
+ var multiple_photos_form = $('form');
+ console.log(multiple_photos_form);
   multiple_photos_form.fileupload({dataType: 'script'});
 
   multiple_photos_form.on('fileuploadsubmit', function (e, data) {
+  	console.log(data.formData)
      data.formData = multiple_photos_form.serializeArray();
   });
 });

@@ -1,0 +1,2 @@
+module PhotoShootHelper
+end
