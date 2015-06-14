@@ -3,7 +3,7 @@ class CreatePhotos < ActiveRecord::Migration
     create_table :photos do |t|
       t.string :image_uid
       t.string :title
-
+      t.references :shoot
       t.timestamps
     end
   end
